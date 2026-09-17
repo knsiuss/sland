@@ -1,0 +1,12 @@
+name: architecture
+on: [pull_request]
+jobs:
+  boundaries:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version-file: '.nvmrc' }
+      - run: node tools/test/check-boundaries.js
+      - run: grep -rIn "BrowserWindow" apps packages platform integrations --include=*.js | grep -v tests/ | grep -v windowing/ && exit 1 || echo "single BrowserWindow owner OK"
+        shell: bash

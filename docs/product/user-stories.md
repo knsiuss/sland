@@ -1,0 +1,10 @@
+# User Stories (v1)
+
+- Sebagai pekerja fokus, saya bisa start/pause/resume Pomodoro dari island dalam 1 klik, agar tidak buka app lain. (FR-10, NFR-UX-001)
+- Sebagai pekerja fokus, timer tetap benar setelah laptop sleep atau app crash, agar sesi dipercaya. (FR-12/13, NFR-REL-001)
+- Sebagai pendengar musik, saya bisa play/pause/next Spotify atau YouTube dari island, agar tidak alt-tab. (FR-20)
+- Sebagai pekerja fokus, notifikasi penting tampil 4 detik lalu island kembali ke timer saya, agar tidak kehilangan konteks. (FR-41/42)
+- Sebagai pengguna rapi, island hilang sendiri saat tidak ada apa-apa dan tidak pernah mencuri fokus game/kerja saya. (FR-03, NFR-UX-002)
+- Sebagai pengguna, saya bisa pindah posisi, ganti tema, dan matikan modul yang tidak dipakai — langsung teraplikasi tanpa restart. (FR-04/22/32)
+- Sebagai pengguna hati-hati, saya tahu persis izin apa yang diminta dan bisa mencabutnya kapan saja tanpa app crash. (SEC-004, ERR-005)
+- Sebagai pengguna, settings rusak tidak pernah membuat app mati — ada backup dan pesan jelas. (FR-31, NFR-REL-002)

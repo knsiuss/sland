@@ -1,0 +1,6 @@
+{
+  "name": "@max-island/desktop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Electron shell: main (App) + preload (Composition/IPC) + renderer (UI). Entry point created in P1."
+}

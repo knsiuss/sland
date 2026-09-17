@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "_note": "Shared compiler contract (mirrors Directory.Build.props in the .NET sketch). Applies if/when packages migrate to TypeScript; JS packages follow the same strictness by convention (see AGENTS.md §3)."
+}

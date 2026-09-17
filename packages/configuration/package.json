@@ -1,0 +1,6 @@
+{
+  "name": "@max-island/configuration",
+  "version": "0.1.0",
+  "private": true,
+  "description": "P5 pure config: IslandConfig types, ajv schema, sanitize, migrate, defaults. No Electron (store adapter lives in app infra)."
+}

@@ -1,0 +1,6 @@
+{
+  "name": "@max-island/github-integration",
+  "version": "0.1.0",
+  "private": true,
+  "description": "GitHub v1: deep-links + optional REST with user-supplied token (OS credential store). Live sync deferred."
+}

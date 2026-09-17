@@ -1,0 +1,6 @@
+{
+  "name": "@max-island/telemetry",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local-only diagnostics: structured logs, ring buffer, metrics collectors, diagnostics export. No network, no analytics."
+}

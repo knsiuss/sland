@@ -1,0 +1,6 @@
+{
+  "name": "@max-island/notifications",
+  "version": "0.1.0",
+  "private": true,
+  "description": "P4 notification domain: transient notify model (default 4000ms) + GitHub deep-link intents. Source: platform/windows/notifications."
+}

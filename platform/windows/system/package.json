@@ -1,0 +1,6 @@
+{
+  "name": "@max-island/windows-system",
+  "version": "0.1.0",
+  "private": true,
+  "description": "P4 Windows system providers: foreground/AppPresence, battery, network, FS-watcher (Downloads), powerMonitor wiring, clipboard."
+}

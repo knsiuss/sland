@@ -1,0 +1,7 @@
+{
+  "env": "test",
+  "logging": { "level": "warn" },
+  "island": { "autoHide": false, "timeoutsMs": { "transient": 50, "media": 50 } },
+  "telemetry": { "transport": "none" },
+  "_note": "Short timeouts keep the suite fast. Never point tests at production config paths."
+}

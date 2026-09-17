@@ -1,0 +1,26 @@
+{
+  "name": "island-dynamic",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MAX Island — Dynamic Island overlay for Windows (Pomodoro + Now Playing + system glance)",
+  "type": "commonjs",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "platform/*/*",
+    "integrations/*"
+  ],
+  "scripts": {
+    "test": "node --test \"tests/**/*.test.js\" \"packages/*/tests/**/*.test.js\" \"platform/*/*/tests/**/*.test.js\" \"integrations/*/tests/**/*.test.js\"",
+    "test:unit": "node --test \"packages/*/tests/**/*.test.js\"",
+    "lint": "node tools/test/check-boundaries.js",
+    "audit:security": "node tools/test/security-grep.js",
+    "build": "node tools/build/build.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "electron": "44.4.1"
+  }
+}

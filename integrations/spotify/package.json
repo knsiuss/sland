@@ -1,0 +1,6 @@
+{
+  "name": "@max-island/spotify-integration",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Spotify specifics on top of the generic GSMTC provider (display quirks, URI launcher). No API key, no per-app transport."
+}

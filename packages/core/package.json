@@ -1,0 +1,6 @@
+{
+  "name": "@max-island/core",
+  "version": "0.1.0",
+  "private": true,
+  "description": "P2 pure engine: normalized events, priority queue, reducer, history, timeout registry. ZERO runtime dependencies."
+}

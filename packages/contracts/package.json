@@ -1,0 +1,6 @@
+{
+  "name": "@max-island/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Shared wire contracts: IslandEvents, Commands (intents), DTOs. Changing these = update phase doc + tests first."
+}

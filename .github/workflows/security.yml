@@ -1,0 +1,12 @@
+name: security
+on: [pull_request]
+jobs:
+  audit:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version-file: '.nvmrc' }
+      - run: npm run audit:security
+      - run: git diff --name-only origin/main | grep -Ei '\.(pem|key|pfx|p12)$' && exit 1 || echo "no secret file types OK"
+        shell: bash

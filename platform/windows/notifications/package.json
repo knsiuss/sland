@@ -1,0 +1,6 @@
+{
+  "name": "@max-island/windows-notifications",
+  "version": "0.1.0",
+  "private": true,
+  "description": "P4 Windows notification listener (UserNotificationListener, consent-gated) + outbound toast sender."
+}

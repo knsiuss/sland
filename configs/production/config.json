@@ -1,0 +1,6 @@
+{
+  "env": "production",
+  "logging": { "level": "info" },
+  "telemetry": { "transport": "none" },
+  "_note": "Defaults only; the user's %APPDATA% config wins. No secrets in this repo, ever."
+}

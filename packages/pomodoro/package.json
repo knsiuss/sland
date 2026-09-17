@@ -1,0 +1,6 @@
+{
+  "name": "@max-island/pomodoro",
+  "version": "0.1.0",
+  "private": true,
+  "description": "P3 Pomodoro domain: deadline-based TimerEngine (main-process host) + phase state machine. Emits IslandEvents, never renders."
+}

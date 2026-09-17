@@ -1,0 +1,14 @@
+name: benchmark
+on:
+  workflow_dispatch:
+    inputs:
+      machine: { description: 'Target machine ID', required: true }
+jobs:
+  record:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version-file: '.nvmrc' }
+      - run: node tools/benchmark/bench.js
+      - run: echo "PERF-001 must be recorded manually on target hardware (see docs/operations/observability.md); CI runners are not valid measurement machines."

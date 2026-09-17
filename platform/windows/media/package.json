@@ -1,0 +1,6 @@
+{
+  "name": "@max-island/windows-media",
+  "version": "0.1.0",
+  "private": true,
+  "description": "P4 Windows media transport: GSMTC session manager wrapper (poll 500-1000ms + CurrentSessionChanged). No API keys."
+}

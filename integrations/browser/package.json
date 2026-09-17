@@ -1,0 +1,6 @@
+{
+  "name": "@max-island/browser-integration",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Browser specifics on top of GSMTC (YouTube/Chrome/Edge quirks). No browser extension, no plugin."
+}

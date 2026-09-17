@@ -1,0 +1,7 @@
+{
+  "env": "development",
+  "logging": { "level": "debug" },
+  "island": { "autoHide": false },
+  "telemetry": { "transport": "none" },
+  "_note": "Dev overrides only. Production behavior is defined by docs + user config, never by this file."
+}

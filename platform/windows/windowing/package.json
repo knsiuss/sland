@@ -1,0 +1,6 @@
+{
+  "name": "@max-island/windows-windowing",
+  "version": "0.1.0",
+  "private": true,
+  "description": "P1 Windows adapter: BrowserWindow factory, workArea-DIP positioning, display events, hit-region click-through, tray, startup."
+}

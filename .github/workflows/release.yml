@@ -1,0 +1,15 @@
+name: release
+on:
+  push:
+    tags: ['v*']
+jobs:
+  gate:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version-file: '.nvmrc' }
+      - run: npm ci
+      - run: node tools/release/release.js ${{ github.ref_name }}
+      - run: npm test
+      # Packager + installer upload + GitHub Release notes wired in P1/P6 (see docs/releases/release-engineering.md).

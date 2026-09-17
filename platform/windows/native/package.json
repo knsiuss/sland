@@ -1,0 +1,6 @@
+{
+  "name": "@max-island/windows-native",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Native helper boundary (deferred): Core Audio volume, WASAPI mic heuristics. Empty until a P4/P6 spike justifies it."
+}
